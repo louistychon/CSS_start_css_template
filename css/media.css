@@ -29,6 +29,11 @@
     .grid{
         grid-template-columns: 1fr;
     }
+    
+    .content-start-css>img{
+        width:100px;
+        height:100px;
+    }
 
     .about-text{
        width:80%;
@@ -38,5 +43,28 @@
     }
     .contact-me button{
         width:100%;
+    }
+    .contact-me{
+        width:90%;
+    }
+    
+    .liste-nav{
+        width:50%;
+        flex-direction: column;
+    }
+    
+    .logo{
+        margin-left:5%;
+        width:35%;
+    }
+    .title,.about-para{
+        margin:auto;
+    }
+    .about{
+        width:100%;
+    }
+
+    h1{
+    font-size:2em;
     }
 }

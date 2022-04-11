@@ -13,6 +13,12 @@ body {
 
 .logo {
     margin: auto;
+    width:70%;
+    margin-left: 20%;
+}
+
+.start-bootstrap{
+    color:#209e8b;
 }
 
 .liste-nav {
@@ -24,6 +30,11 @@ body {
     width: 50%;
 }
 
+h1{
+    font-size: 3em;
+    line-height: 0;
+}
+
 .liste-nav li {
     margin-left: 15px;
 }
@@ -31,6 +42,7 @@ body {
 .start-css {
     background-color: #dc3545;
     height: auto;
+    font-weight: bold;
     padding-bottom:5%;
 }
 
@@ -50,18 +62,22 @@ body {
     align-items: center;
 }
 
+.content-start-css>p{
+    margin-block-start: 0;
+}
+
 .grid {
     display: grid;
     width: 60%;
     margin: auto;
-    gap: 10px 10px;
+    gap: 20px 20px;
     grid-template-columns: repeat(3, 1fr);
     margin-bottom: 5%;
 }
 
 .grid img {
     width: 100%;
-    border-radius:10px;
+    border-radius:5px;
 }
 
 .about{
@@ -78,7 +94,11 @@ body {
 
 .about-para{
     display:flex;
-    padding:10px;
+}
+
+.about-para>p{
+    padding-left: 25px;
+    padding-right: 25px;
 }
 
 .about-text{
@@ -141,6 +161,14 @@ h2{
 .contact-me input,textarea{
     border:none;
     border-bottom:1px solid grey;
+}
+
+ul{
+    padding-inline-start: 0;
+}
+
+textarea{
+    height:100px;
 }
 
 .contact-me button{
