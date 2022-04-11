@@ -1,0 +1,42 @@
+@media screen and (max-width:1024px){
+    
+}
+
+@media screen and (max-width:768px){
+    .container-flex{
+        flex-direction: column;
+    }
+
+    .grid{
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .social{
+        justify-content: flex-start;
+        
+    }
+
+    .social>li{
+        padding-left: 15px;
+    }
+    
+}
+
+@media screen and (max-width:500px){
+    .start-css{
+        text-align: center;
+    }
+    .grid{
+        grid-template-columns: 1fr;
+    }
+
+    .about-text{
+       width:80%;
+    }
+    .about-para{
+        padding-left:5%;
+    }
+    .contact-me button{
+        width:100%;
+    }
+}
