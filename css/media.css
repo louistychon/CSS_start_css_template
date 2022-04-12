@@ -8,7 +8,9 @@
         align-items: center;
         text-align: center;
     }
-
+    .liste-nav{
+        flex-direction: column;
+    }
     .grid{
         grid-template-columns: 1fr 1fr;
     }
