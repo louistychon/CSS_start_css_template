@@ -216,3 +216,11 @@ input::placeholder {
     margin-bottom: 10px;
     color: #2c3e50;
 }
+
+footer i{
+    border:1px solid white;
+    border-radius:50%;
+    padding:10px;
+    width:15px;
+    height:15px;
+}

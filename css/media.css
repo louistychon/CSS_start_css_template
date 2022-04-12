@@ -81,4 +81,21 @@
     h1{
     font-size:2em;
     }
+
+    .menu{
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .liste-nav{
+        margin:auto;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        width:100%;
+        justify-content: center;
+    }
+    .logo{
+        width:100%;
+        margin:auto;
+    }
 }
